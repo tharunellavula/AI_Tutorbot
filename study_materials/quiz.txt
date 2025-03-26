@@ -1,0 +1,101 @@
+Here's a 10-question multiple-choice quiz on functions based on the provided text, with explanations for the correct answers:
+
+**1.  What is a "traceback" in the context of Python programming?**
+
+A) A list of variables used in a program.
+B) A list of functions executing at the time of an error, showing the order and location.
+C) A type of error message that indicates a syntax problem.
+D) A diagram showing the flow of data in a program.
+
+**Correct Answer: B**  A traceback provides a detailed history of function calls leading to an error, pinpointing the file, line, and function where the error occurred.
+
+
+**2. A function that returns a value is called a:**
+
+A) Void function
+B) Fruitful function
+C) Parameter function
+D) Argument function
+
+**Correct Answer: B** The text explicitly defines fruitful functions as those that return a value.
+
+
+**3. What value is returned by a void function in Python?**
+
+A) 0
+B) An empty string ""
+C) None
+D) The function's name
+
+**Correct Answer: C**  Void functions don't explicitly return anything; Python implicitly returns `None`.
+
+
+**4.  What is the type of the `None` value in Python?**
+
+A) `str`
+B) `int`
+C) `bool`
+D) `NoneType`
+
+**Correct Answer: D** The text explicitly states that `None` has its own type, `NoneType`.
+
+
+**5.  What happens if you call a fruitful function in a script without assigning its return value to a variable?**
+
+A) The program will stop executing.
+B) An error message will be displayed.
+C) The return value is lost.
+D) The return value is automatically printed to the console.
+
+
+**Correct Answer: C** The return value is computed but discarded if not stored or used.
+
+
+**6.  Which of the following is NOT a reason to use functions in programming?**
+
+A) To improve code readability.
+B) To reduce code redundancy.
+C) To make programs run faster. (While functions *can* contribute to efficiency, it's not the primary reason for their use).
+D) To break down complex tasks into smaller, manageable units.
+
+**Correct Answer: C**  While functions can sometimes improve efficiency, their main purposes are organization, readability, and reusability.
+
+
+**7.  The statements inside a function are executed:**
+
+A) When the function is defined.
+B) Only when the function is called.
+C) Before the function is defined.
+D) Randomly during program execution.
+
+**Correct Answer: B** Function definitions create the function object; the code within the function runs only when the function is explicitly called.
+
+
+**8. What will happen if you call a function before it is defined in your Python program?**
+
+A) The program will run without any issues.
+B) The program will produce a warning message.
+C) The program will produce a `NameError`.
+D) The program will crash.
+
+**Correct Answer: C** Python will not recognize the function name until it's defined, resulting in a `NameError`.
+
+
+**9.  In the function definition `def my_func(x, y): ...`, `x` and `y` are called:**
+
+A) Arguments
+B) Return values
+C) Parameters
+D) Variables
+
+**Correct Answer: C**  Within the function definition, `x` and `y` are parameters—variables that receive values passed as arguments when the function is called.
+
+
+**10. What is the purpose of the `def` keyword in Python?**
+
+A) To define a variable.
+B) To define a function.
+C) To define a loop.
+D) To define a class.
+
+**Correct Answer: B**  `def` is the keyword used to begin the definition of a function in Python.
